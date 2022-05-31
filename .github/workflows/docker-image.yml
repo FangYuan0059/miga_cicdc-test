@@ -28,8 +28,8 @@ jobs:
           # GitHub Repo => Settings => Secrets 增加 docker hub 登录密钥信息
           # DOCKERHUB_USERNAME 是 docker hub 账号名.
           # DOCKERHUB_TOKEN: docker hub => Account Setting => Security 创建.
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: fyuan277
+          password: 52qqbb1314
       # 通过 git 命令获取当前 tag 信息, 存入环境变量 APP_VERSION
       # 构建 Docker 并推送到 Docker hub
       - name: Build and push
